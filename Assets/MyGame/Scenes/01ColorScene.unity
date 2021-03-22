@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd95a3cb8fe8848eab1fc5877e62c0af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorField: {fileID: 298929786}
+  colorField: {fileID: 298929786}
 --- !u!1 &747156297
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,6 +817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1594305338}
   - component: {fileID: 1594305337}
+  - component: {fileID: 1594305339}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -842,7 +843,6 @@ MonoBehaviour:
   Error: {fileID: 0}
   num1: 0
   num2: 0
-  Colorimage: {fileID: 0}
 --- !u!4 &1594305338
 Transform:
   m_ObjectHideFlags: 0
@@ -857,6 +857,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1594305339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594305336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd95a3cb8fe8848eab1fc5877e62c0af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorField: {fileID: 298929786}
 --- !u!1 &1849044452
 GameObject:
   m_ObjectHideFlags: 0
