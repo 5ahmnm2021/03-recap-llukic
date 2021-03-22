@@ -28,4 +28,4 @@ Limitations: Still need to code functionality of individual screens.
 
 Lessons Learned: How I program a scene switch script.
 
-Copyright by lealukic
+Copyright by lealukic ;)
